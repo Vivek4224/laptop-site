@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+}
+
+.card_container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+    flex-wrap: wrap;
+}
+
+.ad-container {
+    margin: 1.8rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.review-h {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.review {
+    display: flex;
+    width: 90%;
+    gap: 2rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.client-1 {
+    display: flex;
+    width: 50%;
+}
+
+.clients-img img {
+    border-radius: 50%;
+    width: 90%;
+}
+
+.client-2 {
+    display: flex;
+    width: 50%;
+}
+
+span {
+    font-size: 2rem;
+    color: red;
+}
