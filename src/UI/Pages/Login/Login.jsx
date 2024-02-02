@@ -16,12 +16,12 @@ export default function Login() {
                     <h1 className="title" style={{ fontWeight: "600", fontSize: "2.3rem", }}>One Account, All ASUS</h1>
                     <h3 className="dis" style={{ fontSize: "1.1rem", }}>Sign in your ASUS account and get everything you need from one portal!</h3>
                     <div className="details">
-                        <li><Laptop style={{ margin: "5px 5px 5px 0", color: "#C53F3F" }} />Manage the warranties of your ASUS products</li>
-                        <li><Cog style={{ margin: "5px 5px 5px 0", color: "#C53F3F" }} />Download drivers and software for your products</li>
-                        <li><MonitorDown style={{ margin: "5px 5px 5px 0", color: "#C53F3F" }} />Get technical support and keep track of your repair status</li>
-                        <li><ShoppingCart style={{ margin: "5px 5px 5px 0", color: "#C53F3F" }} />Quick checkout and easy order tracking</li>
-                        <li><TicketPercent style={{ margin: "5px 5px 5px 0", color: "#C53F3F" }} />Get exclusive offers and discounts</li>
-                        <li><Newspaper style={{ margin: "5px 5px 5px 0", color: "#C53F3F" }} />Stay up to date with the latest news and events</li>
+                        <li><Laptop style={{ margin: "5px 5px 5px 0", color: "#E50007" }} />Manage the warranties of your ASUS products</li>
+                        <li><Cog style={{ margin: "5px 5px 5px 0", color: "#E50007" }} />Download drivers and software for your products</li>
+                        <li><MonitorDown style={{ margin: "5px 5px 5px 0", color: "#E50007" }} />Get technical support and keep track of your repair status</li>
+                        <li><ShoppingCart style={{ margin: "5px 5px 5px 0", color: "#E50007" }} />Quick checkout and easy order tracking</li>
+                        <li><TicketPercent style={{ margin: "5px 5px 5px 0", color: "#E50007" }} />Get exclusive offers and discounts</li>
+                        <li><Newspaper style={{ margin: "5px 5px 5px 0", color: "#E50007" }} />Stay up to date with the latest news and events</li>
                     </div>
                 </div>
                 <div className="right_container">
@@ -39,7 +39,7 @@ export default function Login() {
                         <Button>Sign In</Button>
                     </div>
                     <p>Don't Have ASUS Account?
-                        <a to="/register">Register Now</a>
+                        <NavLink to="/register" style={{ color: "red", marginLeft: "0.5rem" }}>Register Now</NavLink>
                     </p>
                     <div className="signIn">
                         <hr />

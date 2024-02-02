@@ -12,10 +12,9 @@ import L7 from "../../../Image/L7.png";
 import L8 from "../../../Image/L8.png";
 import a1 from "../../../Image/banner.webp";
 import a2 from "../../../Image/banner2.webp"
-import a3 from "../../../Image/banner3.webp";
-import a4 from "../../../Image/banner4.jpg";
 import c1 from "../../../Image/client1.png";
 import c2 from "../../../Image/client3.png";
+import v1 from "../../../Image/v1.mp4"
 import { CornerDownRight } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
@@ -28,25 +27,32 @@ export default function Home() {
                         {
                             altText: 'Slide 1',
                             key: 1,
-                            src: "https://images.unsplash.com/photo-1630794180018-433d915c34ac?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                            src: "https://dlcdnrog.asus.com/rog/media/170291778916.webp",
                         },
                         {
                             altText: 'Slide 2',
                             key: 2,
-                            src: "https://images.unsplash.com/photo-1630145464727-fb6277fcf824?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                            src: "https://dlcdnrog.asus.com/rog/media/1637784966993.webp",
                         },
                         {
                             altText: 'Slide 3',
                             key: 3,
-                            src: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                            src: "https://dlcdnrog.asus.com/rog/media/1601320227704.webp",
+                        },
+                        {
+                            altText: 'Slide 4',
+                            key: 3,
+                            src: "https://dlcdnrog.asus.com/rog/media/1590500573829.webp",
                         }
                     ]}
                 />
             </div>
-
+            <h1 className="review-h">
+                <span>Asus</span> Laptops
+            </h1>
             <div className="card_container">
 
-                <Card className="Card_1 m-2"
+                <Card className="Card_1 m-2 "
                     style={{
                         width: '18rem'
                     }}
@@ -82,7 +88,7 @@ export default function Home() {
                     </CardBody>
                 </Card>
 
-                <Card className="Card_2 m-2"
+                <Card className="Card_2 m-2 "
                     style={{
                         width: '18rem'
                     }}
@@ -122,7 +128,7 @@ export default function Home() {
                     </CardBody>
                 </Card>
 
-                <Card className="Card_3 m-2"
+                <Card className="Card_3 m-2 "
                     style={{
                         width: '18rem'
                     }}
@@ -164,7 +170,7 @@ export default function Home() {
                     </CardBody>
                 </Card>
 
-                <Card className="Card_4 m-2"
+                <Card className="Card_4 m-2 "
                     style={{
                         width: '18rem'
                     }}
@@ -203,7 +209,7 @@ export default function Home() {
                     </CardBody>
                 </Card>
 
-                <Card className="Card_5 m-2"
+                <Card className="Card_5 m-2 "
                     style={{
                         width: '18rem'
                     }}
@@ -239,7 +245,7 @@ export default function Home() {
                     </CardBody>
                 </Card>
 
-                <Card className="Card_6 m-2"
+                <Card className="Card_6 m-2 "
                     style={{
                         width: '18rem'
                     }}
@@ -275,7 +281,7 @@ export default function Home() {
                     </CardBody>
                 </Card>
 
-                <Card className="Card_7 m-2"
+                <Card className="Card_7 m-2 "
                     style={{
                         width: '18rem'
                     }}
@@ -311,7 +317,7 @@ export default function Home() {
                     </CardBody>
                 </Card>
 
-                <Card className="Card_8 m-2"
+                <Card className="Card_8 m-2 "
                     style={{
                         width: '18rem'
                     }}
@@ -347,7 +353,9 @@ export default function Home() {
                     </CardBody>
                 </Card>
             </div>
-
+            <h1 className="review-h">
+                <span>U</span>pcoming
+            </h1>
             <div className="ad-container">
                 <div className="first_ad">
                     <div>
@@ -381,42 +389,18 @@ export default function Home() {
                         </Card>
                     </div>
                 </div>
-                <div className="third_ad">
-                    <div>
-                        <Card inverse>
-                            <CardImg
-                                alt="Card image cap"
-                                src={a3}
-                                width="100%"
-                            />
-                            <CardImgOverlay>
-                                <CardTitle tag="h1" style={{ color: "white" }}>
-                                    VIVOBOOK
-                                </CardTitle>
-                            </CardImgOverlay>
-                        </Card>
-                    </div>
-                </div>
-                <div className="fiurth_ad">
-                    <div>
-                        <Card inverse>
-                            <CardImg
-                                alt="Card image cap"
-                                src={a4}
-                                width="100%"
-                            />
-                            <CardImgOverlay>
-                                <CardTitle tag="h1" style={{ color: "white" }}>
-                                    ZENBOOK
-                                </CardTitle>
-                            </CardImgOverlay>
-                        </Card>
-                    </div>
-                </div>
             </div>
 
             <h1 className="review-h">
-                REVIEW
+                <span>I</span>ntroducng
+            </h1>
+
+            <div className="video">
+                <video src={v1} loop autoPlay muted></video>
+            </div>
+
+            <h1 className="review-h">
+                <span>R</span>EVIEW
             </h1>
 
             <div className="review">
@@ -446,7 +430,7 @@ export default function Home() {
                             <span><CornerDownRight /></span>
                             This theme is fantastic! It has all of the great website
                             elements found throughout professional templates. I've learned a
-                            lot through developing and designing it while adding my own
+                            lot through developing and designing it while my own
                             touches to the design.
                         </p>
                         <div class="hr"></div>

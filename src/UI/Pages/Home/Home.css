@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +30,14 @@
 
 .review-h {
     text-align: center;
-    margin-bottom: 3rem;
+    margin: 2rem;
+    font-size: 3rem;
+    font-family: "Creepster", system-ui;
+}
+
+.review-h span {
+    font-size: 3rem;
+    font-family: "Creepster", system-ui;
 }
 
 .review {
@@ -44,6 +53,15 @@
 .client-1 {
     display: flex;
     width: 50%;
+    border: 2px solid #d2d2d2;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: all 0.4s;
+}
+
+.client-1:hover {
+    border: 2px solid #e50007;
+    cursor: pointer;
 }
 
 .clients-img img {
@@ -54,9 +72,28 @@
 .client-2 {
     display: flex;
     width: 50%;
+    border: 2px solid #d2d2d2;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: all 0.4s;
+}
+
+.client-2:hover {
+    border: 2px solid #e50007;
+    cursor: pointer;
 }
 
 span {
     font-size: 2rem;
-    color: red;
+    color: #e50007;
+}
+
+.video {
+    width: 95%;
+    margin: auto;
+}
+
+.video video {
+    width: 100%;
+    border-radius: 0.5rem;
 }

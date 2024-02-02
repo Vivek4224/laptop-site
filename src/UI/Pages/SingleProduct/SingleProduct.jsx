@@ -72,7 +72,7 @@ export default function SingleProduct() {
             </div>
 
             <hr />
-            <h1 className="title" style={{ textAlign: "center", fontWeight: "900", color: "#E40D11" }}>Related</h1>
+            <h1 className="title" style={{ textAlign: "center", fontWeight: "900", color: "black", fontFamily: "Creepster, system-ui" }}>Related</h1>
             <div className="card-container d-flex">
                 <Card className="Card_1 m-2"
                     style={{

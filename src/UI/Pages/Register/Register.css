@@ -4,7 +4,8 @@
 }
 
 .buttons a {
-    border: 1px solid #0a7dd9;
+    border: 1px solid #e50007;
+    color: #e50007;
     margin: 0.5rem;
     padding: 0.5rem;
     text-decoration: none;
